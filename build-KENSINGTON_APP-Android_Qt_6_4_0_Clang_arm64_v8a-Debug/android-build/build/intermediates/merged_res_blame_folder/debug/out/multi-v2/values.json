@@ -1,0 +1,84 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.qtproject.example.KENSINGTON_APP-mergeDebugResources-4:/values/values.xml",
+            "map": [
+                {
+                    "source": "C:\\Qt\\6.4.0\\android_arm64_v8a\\src\\android\\java\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
+                    },
+                    "to": {
+                        "startLines": "25,28",
+                        "startColumns": "4,4",
+                        "startOffsets": "1066,1255",
+                        "endColumns": "107,97",
+                        "endOffsets": "1169,1348"
+                    }
+                },
+                {
+                    "source": "D:\\Academics\\FA2022\\PREA\\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\\android-build\\res\\values\\libs.xml",
+                    "from": {
+                        "startLines": "-1,-1,8,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,4,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,211,-1,-1,-1,-1",
+                        "endLines": "-1,-1,23,-1,-1,-1,-1",
+                        "endColumns": "-1,-1,12,-1,-1,-1,-1",
+                        "endOffsets": "-1,-1,988,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,5,8,24,26,27,29",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,109,235,1015,1174,1215,1353",
+                        "endLines": "4,7,23,24,26,27,29",
+                        "endColumns": "12,12,12,50,40,39,47",
+                        "endOffsets": "104,230,1010,1061,1210,1250,1396"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Administrator\\.gradle\\daemon\\7.4.2\\org.qtproject.example.KENSINGTON_APP-mergeDebugResources-4:\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Qt\\6.4.0\\android_arm64_v8a\\src\\android\\java\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "88,197",
+                        "endColumns": "107,97",
+                        "endOffsets": "191,290"
+                    },
+                    "to": {
+                        "startLines": "24,27",
+                        "startColumns": "4,4",
+                        "startOffsets": "1018,1207",
+                        "endColumns": "107,97",
+                        "endOffsets": "1121,1300"
+                    }
+                },
+                {
+                    "source": "D:\\Academics\\FA2022\\PREA\\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\\android-build\\res\\values\\libs.xml",
+                    "from": {
+                        "startLines": "4,24,8,30,28,31,29",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "152,948,211,1178,1079,1230,1129",
+                        "endLines": "6,26,22,30,28,31,29",
+                        "endColumns": "12,12,12,50,48,47,47",
+                        "endOffsets": "203,1071,940,1224,1123,1273,1172"
+                    },
+                    "to": {
+                        "startLines": "2,5,8,23,25,26,28",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,109,235,967,1126,1167,1305",
+                        "endLines": "4,7,22,23,25,26,28",
+                        "endColumns": "12,12,12,50,40,39,47",
+                        "endOffsets": "104,230,962,1013,1162,1202,1348"
+                    }
+                }
+            ]
+        }
+    ]
+}

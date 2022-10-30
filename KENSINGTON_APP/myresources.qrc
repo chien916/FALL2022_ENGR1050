@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ICONS/icon_exclam.svg</file>
+        <file>ICONS/icon_help.svg</file>
+        <file>ICONS/icon_loading.svg</file>
+        <file>ICONS/icon_setting.svg</file>
+        <file>ICONS/icon_status.svg</file>
+        <file>ICONS/kensington.svg</file>
+        <file>ICONS/round_pitt.svg</file>
+        <file>FONTS/Inter-Bold.ttf</file>
+        <file>FONTS/Inter-Regular.ttf</file>
+        <file>COMPONENTS/MyButton.qml</file>
+        <file>COMPONENTS/MyIcon.qml</file>
+        <file>main.qml</file>
+        <file>COMPONENTS/MyStyle.qml</file>
+        <file>COMPONENTS/qmldir</file>
+        <file>COMPONENTS/MyTextField.qml</file>
+        <file>COMPONENTS/MyStatusBlockDelegate.qml</file>
+    </qresource>
+</RCC>
