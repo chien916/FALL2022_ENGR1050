@@ -1,11 +1,11 @@
 import QtQuick
 import QtQuick.Controls
 
-Item {
+Rectangle {
 	id: item1
 	property int inheretedWindowHeight: 480
-	height: 20
-	width: 200
+	implicitHeight: 20
+	implicitWidth: 200
 	TextField{
 		z:2
 		id:textfield_textField

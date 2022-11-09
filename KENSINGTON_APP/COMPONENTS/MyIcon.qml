@@ -1,9 +1,11 @@
 import QtQuick
 import QtQuick.Controls
 
-Item {
-	width: 50
-	height: 50
+Rectangle {
+	id:myIcon
+	implicitHeight: 50
+	implicitWidth: 100
+	color: "transparent"
 	enum IconTypeEnum{
 		Exclam,
 		Help,
@@ -35,11 +37,6 @@ Item {
 		sourceSize.height: 300
 		sourceSize.width: 300
 	}
-
 }
 
-/*##^##
-Designer {
-	D{i:0;autoSize:true;formeditorZoom:0.25;height:480;width:640}
-}
-##^##*/
+

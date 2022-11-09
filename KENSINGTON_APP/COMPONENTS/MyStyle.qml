@@ -15,11 +15,10 @@ Item {
 	readonly property color color_neutral200: "#EDF0F7"
 	readonly property color color_neutral100: "#F7F9FC"
 	readonly property color color_neutralWhite: "#FFFFFF"
-	readonly property double param_fontSize: 10
-	readonly property double param_largeFontSize: param_fontSize*2
-	readonly property double param_radius: 10
-
-	readonly property double param_lineWidth: 5
+	readonly property double param_fontSize: 12
+	readonly property double param_largeFontSize: param_fontSize*1.5
+	readonly property double param_radius: 5
+	readonly property double param_lineWidth: 2
 
 	FontLoader{
 		id:fontloader_interbold
@@ -30,3 +29,9 @@ Item {
 		source: "qrc:/FONTS/Inter-Regular.ttf"
 	}
 }
+
+/*##^##
+Designer {
+	D{i:0;autoSize:true;height:480;width:640}
+}
+##^##*/

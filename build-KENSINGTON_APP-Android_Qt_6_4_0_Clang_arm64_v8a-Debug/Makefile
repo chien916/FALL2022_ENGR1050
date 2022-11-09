@@ -663,6 +663,8 @@ compiler_rcc_clean:
 qrc_myresources.cpp: ..\KENSINGTON_APP\myresources.qrc \
 		C:\Qt\6.4.0\mingw_64\bin\rcc.exe \
 		..\KENSINGTON_APP\main.qml \
+		..\KENSINGTON_APP\COMPONENTS\MyStatusBlockDelegate.qml \
+		..\KENSINGTON_APP\COMPONENTS\MyTextField.qml \
 		..\KENSINGTON_APP\COMPONENTS\MyIcon.qml \
 		..\KENSINGTON_APP\COMPONENTS\qmldir \
 		..\KENSINGTON_APP\COMPONENTS\MyStyle.qml \
@@ -846,7 +848,9 @@ main.obj: ..\KENSINGTON_APP\main.cpp C:\Qt\6.4.0\android_arm64_v8a\include\QtGui
 		C:\Qt\6.4.0\android_arm64_v8a\include\QtQml\qqmlregistration.h \
 		C:\Qt\6.4.0\android_arm64_v8a\include\QtQmlIntegration\qqmlintegration.h \
 		C:\Qt\6.4.0\android_arm64_v8a\include\QtQml\qqmlerror.h \
-		C:\Qt\6.4.0\android_arm64_v8a\include\QtQml\qqmlabstracturlinterceptor.h
+		C:\Qt\6.4.0\android_arm64_v8a\include\QtQml\qqmlabstracturlinterceptor.h \
+		C:\Qt\6.4.0\android_arm64_v8a\include\QtGui\QSurfaceFormat \
+		C:\Qt\6.4.0\android_arm64_v8a\include\QtGui\qsurfaceformat.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.obj ..\KENSINGTON_APP\main.cpp
 
 qrc_myresources.obj: qrc_myresources.cpp 

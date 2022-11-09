@@ -32,19 +32,21 @@ Window {
 //		fillMode: Image.PreserveAspectFit
 //	}
 
-	MyButton{
-		buttonText: "test"
-		buttonType: MyButton.ButtonTypeEnum.SOLID
-	}
+//	MyButton{
+//		buttonText: "test"
+//		buttonType: MyButton.ButtonTypeEnum.SOLID
+//	}
 //	MyTextField{
 
 //	}
 	MyStatusBlockDelegate{
-		x: 31
-		y: 93
-		width: 262
 		height: 115
-
+		anchors.left: parent.left
+		anchors.right: parent.right
+		anchors.top: parent.top
+		anchors.topMargin: 100
+		anchors.rightMargin: 27
+		anchors.leftMargin: 31
 	}
 
 }
@@ -53,6 +55,6 @@ Window {
 
 /*##^##
 Designer {
-	D{i:0;formeditorZoom:0.9}
+	D{i:0;formeditorZoom:0.9}D{i:1}
 }
 ##^##*/

@@ -1,34 +1,70 @@
 import QtQuick
-
-Item {
-	implicitHeight: 50
-	implicitWidth: 100
-	property string lockName: "lockname"
-	property string lockStatus: "status"
-	property string lockBattery: "battery"
-	MyIcon{
-		id:myicon_lockIcon
+import "./"
+Rectangle {
+	implicitHeight: 60
+	implicitWidth: 150
+	property string lockName: "LOCKNAME"
+	property string lockStatus: "Status:"
+	property string lockBattery: "Battery:"
+	Loader{
+		id:loader_statusIcon
+		source: "qrc:/COMPONENTS/MyIcon.qml"
 		anchors.verticalCenter: rectangle_connector.verticalCenter
 		anchors.horizontalCenter:  rectangle_connector.horizontalCenter
-		width: rectangle_connector.width*0.5
-		height: rectangle_connector.width*0.5
+		width: MyStyle.param_lineWidth*10
+		height: MyStyle.param_lineWidth*10
 		z:2
 	}
 	Text{
+		id:text_lockName
 		text: lockName
 		color: MyStyle.color_neutral800
 		font.family: MyStyle.fontloader_interbold_alias
 		font.pixelSize: MyStyle.param_largeFontSize
-		anchors.margins: (parent.width-(rectangle_divider.x-parent.x))*0.05
-		anchors.left: rectangle_divider.right
+		anchors.margins: MyStyle.param_lineWidth*5
+		anchors.left: rectangle_squareCorners.right
 		anchors.top: parent.top
-
+		z:2
 	}
-//	MyButton{
-//		id:mybutton_disconnect
-//		z:2
-//	}
+	Text{
+		id:text_lockStatus
+		text: lockStatus
+		color: MyStyle.color_neutral600
+		font.family: MyStyle.fontloader_interbold_alias
+		font.pixelSize: MyStyle.param_fontSize
+		anchors.topMargin: MyStyle.param_lineWidth
+		anchors.leftMargin:text_lockName.anchors.margins
+		anchors.left: text_lockName.anchors.left
+		anchors.top: text_lockName.bottom
+		z:2
+	}
+	Text{
+		id:text_lockBattery
+		text: lockBattery
+		color: MyStyle.color_neutral600
+		font.family: MyStyle.fontloader_interbold_alias
+		font.pixelSize: MyStyle.param_fontSize
+		anchors.topMargin: MyStyle.param_lineWidth
+		anchors.leftMargin:text_lockName.anchors.margins
+		anchors.left: text_lockName.anchors.left
+		anchors.top: text_lockStatus.bottom
+		z:2
+	}
+	Loader{
+		id:loader_disconnectButton
+		source:"qrc:/COMPONENTS/MyButton.qml"
+		anchors.top: text_lockBattery.bottom
+		anchors.bottom: parent.bottom
+		anchors.left: text_lockName.anchors.left
+		anchors.right:parent.right
+		anchors.topMargin: anchors.bottomMargin*0.5
+		anchors.bottomMargin: text_lockName.anchors.margins
+		anchors.leftMargin: text_lockName.anchors.margins
+		anchors.rightMargin: text_lockName.anchors.margins
+//		onLoaded: {item.buttonType = item.ButtonTypeEnum.OUTLINE}
+	}
 
+	//背景布局
 	Rectangle{
 		z:1
 		id: rectangle_background
@@ -47,42 +83,37 @@ Item {
 		color:MyStyle.color_neutral800
 	}
 
-//	MyIcon{
+	Rectangle {
+		z:0
+		id: rectangle_roundCorners
+		width: MyStyle.param_radius*2
+		height: parent.height
+		color: MyStyle.color_neutral400
+		radius: MyStyle.param_radius
+		anchors.left: parent.left
+	}
+	Rectangle {
+		z:0
+		id: rectangle_squareCorners
+		width: MyStyle.param_radius
+		height: parent.height
+		color: MyStyle.color_neutral400
+		anchors.right: rectangle_divider.left
+	}
+	Rectangle {
+		id: rectangle_connector
+		z:0
+		anchors.left: rectangle_roundCorners.horizontalCenter
+		anchors.right: rectangle_squareCorners.horizontalCenter
+		height: parent.height
+		color: MyStyle.color_neutral400
+	}
 
-//	}
-//	width: 100
-//	 height: 50
-//	 opacity: 0.5
-//	 layer.enabled: true
-//	 anchors.centerIn: parent
-
-	 Rectangle {
-		 z:0
-		 id: rectangle_roundCorners
-		 width: MyStyle.param_radius*2
-		 height: parent.height
-		 color: MyStyle.color_neutral400
-		 radius: MyStyle.param_radius
-		 anchors.left: parent.left
-	 }
-	 Rectangle {
-		 z:0
-		 id: rectangle_squareCorners
-		 width: MyStyle.param_radius
-		 height: parent.height
-		 color: MyStyle.color_neutral400
-		 anchors.right: rectangle_divider.left
-	 }
-
-	 Rectangle {
-		 id: rectangle_connector
-		 z:0
-		 anchors.left: rectangle_roundCorners.horizontalCenter
-		 anchors.right: rectangle_squareCorners.horizontalCenter
-		 height: parent.height
-		 color: MyStyle.color_neutral400
-	 }
 }
+
+
+
+
 
 /*##^##
 Designer {
