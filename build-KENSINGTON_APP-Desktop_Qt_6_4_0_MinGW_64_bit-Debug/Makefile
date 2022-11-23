@@ -342,9 +342,11 @@ Makefile: ../KENSINGTON_APP/KENSINGTON_APP.pro C:/Qt/6.4.0/mingw_64/mkspecs/win3
 		C:/Qt/6.4.0/mingw_64/lib/Qt6Quick.prl \
 		C:/Qt/6.4.0/mingw_64/lib/Qt6OpenGL.prl \
 		C:/Qt/6.4.0/mingw_64/lib/Qt6Svg.prl \
+		C:/Qt/6.4.0/mingw_64/lib/Qt6Multimedia.prl \
 		C:/Qt/6.4.0/mingw_64/lib/Qt6Gui.prl \
 		C:/Qt/6.4.0/mingw_64/lib/Qt6QmlModels.prl \
 		C:/Qt/6.4.0/mingw_64/lib/Qt6Qml.prl \
+		C:/Qt/6.4.0/mingw_64/lib/Qt6Bluetooth.prl \
 		C:/Qt/6.4.0/mingw_64/lib/Qt6Network.prl \
 		C:/Qt/6.4.0/mingw_64/lib/Qt6Core.prl \
 		C:/Qt/6.4.0/mingw_64/lib/Qt6EntryPoint.prl \
@@ -625,9 +627,11 @@ C:/Qt/6.4.0/mingw_64/mkspecs/features/lex.prf:
 C:/Qt/6.4.0/mingw_64/lib/Qt6Quick.prl:
 C:/Qt/6.4.0/mingw_64/lib/Qt6OpenGL.prl:
 C:/Qt/6.4.0/mingw_64/lib/Qt6Svg.prl:
+C:/Qt/6.4.0/mingw_64/lib/Qt6Multimedia.prl:
 C:/Qt/6.4.0/mingw_64/lib/Qt6Gui.prl:
 C:/Qt/6.4.0/mingw_64/lib/Qt6QmlModels.prl:
 C:/Qt/6.4.0/mingw_64/lib/Qt6Qml.prl:
+C:/Qt/6.4.0/mingw_64/lib/Qt6Bluetooth.prl:
 C:/Qt/6.4.0/mingw_64/lib/Qt6Network.prl:
 C:/Qt/6.4.0/mingw_64/lib/Qt6Core.prl:
 C:/Qt/6.4.0/mingw_64/lib/Qt6EntryPoint.prl:

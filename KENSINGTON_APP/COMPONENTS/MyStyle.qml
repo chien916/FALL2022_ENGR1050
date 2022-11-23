@@ -19,7 +19,7 @@ Item {
 	readonly property double param_largeFontSize: param_fontSize*1.5
 	readonly property double param_radius: 5
 	readonly property double param_lineWidth: 2
-
+	readonly property double param_iconSize: param_lineWidth*7
 	FontLoader{
 		id:fontloader_interbold
 		source: "qrc:/FONTS/Inter-Bold.ttf"

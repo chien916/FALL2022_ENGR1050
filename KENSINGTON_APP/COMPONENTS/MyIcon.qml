@@ -3,9 +3,9 @@ import QtQuick.Controls
 
 Rectangle {
 	id:myIcon
-	implicitHeight: 50
-	implicitWidth: 100
 	color: "transparent"
+	implicitHeight: MyStyle.param_iconSize
+	implicitWidth: MyStyle.param_iconSize
 	enum IconTypeEnum{
 		Exclam,
 		Help,
@@ -15,8 +15,11 @@ Rectangle {
 	}
 	property int iconType: MyIcon.IconTypeEnum.Exclam
 	Image{
-		anchors.fill: parent
+		height: MyStyle.param_iconSize
+		anchors.verticalCenter: parent.verticalCenter
+		width: MyStyle.param_iconSize
 		source:"qrc:/ICONS/icon_exclam.svg"
+		anchors.horizontalCenter: parent.horizontalCenter
 		clip: true
 //			{
 //			switch(iconType){

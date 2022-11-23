@@ -1,5 +1,8 @@
 QT += quick\
-	svg
+	svg\
+	bluetooth\
+	multimedia
+
 
 SOURCES += \
         main.cpp

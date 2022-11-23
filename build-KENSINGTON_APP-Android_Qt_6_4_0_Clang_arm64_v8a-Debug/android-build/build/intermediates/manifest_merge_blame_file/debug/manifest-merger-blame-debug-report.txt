@@ -20,79 +20,106 @@
 14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 14-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:9:5-79
 14-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:9:22-76
-15
-16    <supports-screens
-16-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:11:5-15:39
-17        android:anyDensity="true"
-17-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:12:9-34
-18        android:largeScreens="true"
-18-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:13:9-36
-19        android:normalScreens="true"
-19-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:14:9-37
-20        android:smallScreens="true" />
-20-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:15:9-36
-21
-22    <application
-22-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:16:5-48:19
-23        android:name="org.qtproject.qt.android.bindings.QtApplication"
-23-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:17:9-71
-24        android:allowBackup="true"
-24-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:22:9-35
-25        android:allowNativeHeapPointerTagging="false"
-25-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:21:9-54
-26        android:debuggable="true"
-27        android:fullBackupOnly="false"
-27-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:23:9-39
-28        android:hardwareAccelerated="true"
-28-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:18:9-43
-29        android:label="KENSINGTON_APP"
-29-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:19:9-39
-30        android:requestLegacyExternalStorage="true" >
-30-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:20:9-52
-31        <activity
-31-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:24:9-47:20
-32            android:name="org.qtproject.qt.android.bindings.QtActivity"
-32-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:25:13-72
-33            android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation|mcc|mnc|density"
-33-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:26:13-182
-34            android:exported="true"
-34-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:30:13-36
-35            android:label="KENSINGTON_APP"
-35-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:27:13-43
-36            android:launchMode="singleTop"
-36-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:28:13-43
-37            android:screenOrientation="unspecified" >
-37-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:29:13-52
-38            <intent-filter>
-38-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:31:13-34:29
-39                <action android:name="android.intent.action.MAIN" />
-39-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:32:17-69
-39-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:32:25-66
-40
-41                <category android:name="android.intent.category.LAUNCHER" />
-41-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:33:17-77
-41-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:33:27-74
-42            </intent-filter>
-43
-44            <meta-data
-44-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:36:11-38:50
-45                android:name="android.app.lib_name"
-45-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:37:17-52
-46                android:value="KENSINGTON_APP" />
-46-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:38:17-47
-47            <meta-data
-47-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:40:11-42:36
-48                android:name="android.app.arguments"
-48-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:41:17-53
-49                android:value="" />
-49-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:42:17-33
-50            <meta-data
-50-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:44:13-46:43
-51                android:name="android.app.extract_android_style"
-51-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:45:17-65
-52                android:value="minimal" />
-52-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:46:17-40
-53        </activity>
-54    </application>
-55
-56</manifest>
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:10:5-79
+15-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="android.permission.BLUETOOTH" />
+16-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:11:5-68
+16-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:11:22-65
+17    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+17-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:12:5-74
+17-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:12:22-71
+18    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+18-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:13:5-73
+18-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:13:22-70
+19    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+19-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:14:5-78
+19-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:14:22-75
+20    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+20-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:15:5-76
+20-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:15:22-73
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:16:5-65
+21-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:16:22-62
+22    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+22-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:17:5-71
+22-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:17:22-68
+23    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+23-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:18:5-80
+23-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:18:22-77
+24
+25    <supports-screens
+25-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:20:5-24:39
+26        android:anyDensity="true"
+26-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:21:9-34
+27        android:largeScreens="true"
+27-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:22:9-36
+28        android:normalScreens="true"
+28-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:23:9-37
+29        android:smallScreens="true" />
+29-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:24:9-36
+30
+31    <application
+31-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:25:5-57:19
+32        android:name="org.qtproject.qt.android.bindings.QtApplication"
+32-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:26:9-71
+33        android:allowBackup="true"
+33-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:31:9-35
+34        android:allowNativeHeapPointerTagging="false"
+34-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:30:9-54
+35        android:debuggable="true"
+36        android:fullBackupOnly="false"
+36-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:32:9-39
+37        android:hardwareAccelerated="true"
+37-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:27:9-43
+38        android:label="KENSINGTON_APP"
+38-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:28:9-39
+39        android:requestLegacyExternalStorage="true" >
+39-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:29:9-52
+40        <activity
+40-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:33:9-56:20
+41            android:name="org.qtproject.qt.android.bindings.QtActivity"
+41-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:34:13-72
+42            android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation|mcc|mnc|density"
+42-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:35:13-182
+43            android:exported="true"
+43-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:39:13-36
+44            android:label="KENSINGTON_APP"
+44-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:36:13-43
+45            android:launchMode="singleTop"
+45-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:37:13-43
+46            android:screenOrientation="unspecified" >
+46-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:38:13-52
+47            <intent-filter>
+47-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:40:13-43:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:41:17-69
+48-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:41:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:42:17-77
+50-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:42:27-74
+51            </intent-filter>
+52
+53            <meta-data
+53-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:45:11-47:50
+54                android:name="android.app.lib_name"
+54-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:46:17-52
+55                android:value="KENSINGTON_APP" />
+55-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:47:17-47
+56            <meta-data
+56-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:49:11-51:36
+57                android:name="android.app.arguments"
+57-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:50:17-53
+58                android:value="" />
+58-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:51:17-33
+59            <meta-data
+59-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:53:13-55:43
+60                android:name="android.app.extract_android_style"
+60-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:54:17-65
+61                android:value="minimal" />
+61-->D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\AndroidManifest.xml:55:17-40
+62        </activity>
+63    </application>
+64
+65</manifest>

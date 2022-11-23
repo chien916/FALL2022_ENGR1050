@@ -7,7 +7,7 @@ Rectangle {
 	implicitWidth: 100
 	color:"transparent"
 	property string buttonText: "button"
-	property int buttonType: MyButton.ButtonTypeEnum.OUTLINE
+	property int buttonType: MyButton.ButtonTypeEnum.GHOST
 	enum ButtonTypeEnum{
 		SOLID,
 		OUTLINE,

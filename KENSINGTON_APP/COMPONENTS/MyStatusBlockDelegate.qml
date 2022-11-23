@@ -1,8 +1,8 @@
 import QtQuick
 import "./"
 Rectangle {
-	implicitHeight: 60
-	implicitWidth: 150
+	implicitHeight: 30
+	implicitWidth: 70
 	property string lockName: "LOCKNAME"
 	property string lockStatus: "Status:"
 	property string lockBattery: "Battery:"

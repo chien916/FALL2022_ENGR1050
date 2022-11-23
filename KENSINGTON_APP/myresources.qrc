@@ -16,5 +16,6 @@
         <file>COMPONENTS/qmldir</file>
         <file>COMPONENTS/MyTextField.qml</file>
         <file>COMPONENTS/MyStatusBlockDelegate.qml</file>
+        <file>COMPONENTS/MyMenuBar.qml</file>
     </qresource>
 </RCC>
