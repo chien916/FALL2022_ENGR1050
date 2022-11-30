@@ -14,10 +14,10 @@ EQ            = =
 
 CC            = C:\Users\Administrator\AppData\Local\Android\Sdk\ndk\23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/bin/clang
 CXX           = C:\Users\Administrator\AppData\Local\Android\Sdk\ndk\23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++
-DEFINES       = -DQT_QML_DEBUG -DQT_QUICK_LIB -DQT_OPENGL_LIB -DQT_SVG_LIB -DQT_MULTIMEDIA_LIB -DQT_GUI_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QMLINTEGRATION_LIB -DQT_BLUETOOTH_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB
+DEFINES       = -DQT_QML_DEBUG -DQT_QUICK_LIB -DQT_OPENGL_LIB -DQT_SVG_LIB -DQT_GUI_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QMLINTEGRATION_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB
 CFLAGS        = -target aarch64-linux-android23 -fno-limit-debug-info -fPIC -fstack-protector-strong -DANDROID -g -Wall -W -D_REENTRANT $(DEFINES)
 CXXFLAGS      = -target aarch64-linux-android23 -fno-limit-debug-info -fPIC -fstack-protector-strong -DANDROID -g -std=gnu++1z -Wall -W -D_REENTRANT $(DEFINES)
-INCPATH       = -I..\KENSINGTON_APP -I. -IC:\Qt\6.4.0\android_arm64_v8a\include -IC:\Qt\6.4.0\android_arm64_v8a\include\QtQuick -IC:\Qt\6.4.0\android_arm64_v8a\include\QtOpenGL -IC:\Qt\6.4.0\android_arm64_v8a\include\QtSvg -IC:\Qt\6.4.0\android_arm64_v8a\include\QtMultimedia -IC:\Qt\6.4.0\android_arm64_v8a\include\QtGui -IC:\Qt\6.4.0\android_arm64_v8a\include\QtQmlModels -IC:\Qt\6.4.0\android_arm64_v8a\include\QtQml -IC:\Qt\6.4.0\android_arm64_v8a\include\QtQmlIntegration -IC:\Qt\6.4.0\android_arm64_v8a\include\QtBluetooth -IC:\Qt\6.4.0\android_arm64_v8a\include\QtNetwork -IC:\Qt\6.4.0\android_arm64_v8a\include\QtCore -I. -IC:\Qt\6.4.0\android_arm64_v8a\mkspecs\android-clang
+INCPATH       = -I..\KENSINGTON_APP -I. -IC:\Qt\6.4.0\android_arm64_v8a\include -IC:\Qt\6.4.0\android_arm64_v8a\include\QtQuick -IC:\Qt\6.4.0\android_arm64_v8a\include\QtOpenGL -IC:\Qt\6.4.0\android_arm64_v8a\include\QtSvg -IC:\Qt\6.4.0\android_arm64_v8a\include\QtGui -IC:\Qt\6.4.0\android_arm64_v8a\include\QtQmlModels -IC:\Qt\6.4.0\android_arm64_v8a\include\QtQml -IC:\Qt\6.4.0\android_arm64_v8a\include\QtQmlIntegration -IC:\Qt\6.4.0\android_arm64_v8a\include\QtNetwork -IC:\Qt\6.4.0\android_arm64_v8a\include\QtCore -I. -IC:\Qt\6.4.0\android_arm64_v8a\mkspecs\android-clang
 QMAKE         = C:\Qt\6.4.0\mingw_64\bin\qmake.exe
 DEL_FILE      = del
 CHK_DIR_EXISTS= if not exist
@@ -40,7 +40,7 @@ DISTNAME      = libKENSINGTON_APP_arm64-v8a.so1.0.0
 DISTDIR = D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\.tmp\libKENSINGTON_APP_arm64-v8a.so1.0.0
 LINK          = C:\Users\Administrator\AppData\Local\Android\Sdk\ndk\23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++ -target aarch64-linux-android23 -fno-limit-debug-info
 LFLAGS        = -Wl,-soname,libKENSINGTON_APP_arm64-v8a.so -Wl,--build-id=sha1 -Wl,--no-undefined -Wl,-z,noexecstack -shared
-LIBS          = $(SUBLIBS) C:/Qt/6.4.0/android_arm64_v8a/lib/libQt6Quick_arm64-v8a.so C:/Qt/6.4.0/android_arm64_v8a/lib/libQt6OpenGL_arm64-v8a.so C:/Qt/6.4.0/android_arm64_v8a/lib/libQt6Svg_arm64-v8a.so C:/Qt/6.4.0/android_arm64_v8a/lib/libQt6Multimedia_arm64-v8a.so C:/Qt/6.4.0/android_arm64_v8a/lib/libQt6Gui_arm64-v8a.so -lEGL C:/Qt/6.4.0/android_arm64_v8a/lib/libQt6QmlModels_arm64-v8a.so C:/Qt/6.4.0/android_arm64_v8a/lib/libQt6Qml_arm64-v8a.so C:/Qt/6.4.0/android_arm64_v8a/lib/libQt6Bluetooth_arm64-v8a.so C:/Qt/6.4.0/android_arm64_v8a/lib/libQt6Network_arm64-v8a.so C:/Qt/6.4.0/android_arm64_v8a/lib/libQt6Core_arm64-v8a.so -llog -pthread -lGLESv2   -llog -lz -lm -ldl -lc
+LIBS          = $(SUBLIBS) C:/Qt/6.4.0/android_arm64_v8a/lib/libQt6Quick_arm64-v8a.so C:/Qt/6.4.0/android_arm64_v8a/lib/libQt6OpenGL_arm64-v8a.so C:/Qt/6.4.0/android_arm64_v8a/lib/libQt6Svg_arm64-v8a.so C:/Qt/6.4.0/android_arm64_v8a/lib/libQt6Gui_arm64-v8a.so -lEGL C:/Qt/6.4.0/android_arm64_v8a/lib/libQt6QmlModels_arm64-v8a.so C:/Qt/6.4.0/android_arm64_v8a/lib/libQt6Qml_arm64-v8a.so C:/Qt/6.4.0/android_arm64_v8a/lib/libQt6Network_arm64-v8a.so C:/Qt/6.4.0/android_arm64_v8a/lib/libQt6Core_arm64-v8a.so -llog -pthread -lGLESv2   -llog -lz -lm -ldl -lc
 AR            = C:\Users\Administrator\AppData\Local\Android\Sdk\ndk\23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-ar cqs
 RANLIB        = C:\Users\Administrator\AppData\Local\Android\Sdk\ndk\23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/bin/aarch64-linux-android-ranlib
 SED           = $(QMAKE) -install sed
@@ -334,11 +334,9 @@ Makefile: ..\KENSINGTON_APP\KENSINGTON_APP.pro C:\Qt\6.4.0\android_arm64_v8a\mks
 		C:\Qt\6.4.0\android_arm64_v8a\lib\libQt6Quick_arm64-v8a.prl \
 		C:\Qt\6.4.0\android_arm64_v8a\lib\libQt6OpenGL_arm64-v8a.prl \
 		C:\Qt\6.4.0\android_arm64_v8a\lib\libQt6Svg_arm64-v8a.prl \
-		C:\Qt\6.4.0\android_arm64_v8a\lib\libQt6Multimedia_arm64-v8a.prl \
 		C:\Qt\6.4.0\android_arm64_v8a\lib\libQt6Gui_arm64-v8a.prl \
 		C:\Qt\6.4.0\android_arm64_v8a\lib\libQt6QmlModels_arm64-v8a.prl \
 		C:\Qt\6.4.0\android_arm64_v8a\lib\libQt6Qml_arm64-v8a.prl \
-		C:\Qt\6.4.0\android_arm64_v8a\lib\libQt6Bluetooth_arm64-v8a.prl \
 		C:\Qt\6.4.0\android_arm64_v8a\lib\libQt6Network_arm64-v8a.prl \
 		C:\Qt\6.4.0\android_arm64_v8a\lib\libQt6Core_arm64-v8a.prl
 	$(QMAKE) -o Makefile ..\KENSINGTON_APP\KENSINGTON_APP.pro -qtconf C:/Qt/6.4.0/android_arm64_v8a/bin/target_qt.conf -spec android-clang "CONFIG+=debug" "CONFIG+=qml_debug"
@@ -605,11 +603,9 @@ qmake_resources.qrc:
 C:\Qt\6.4.0\android_arm64_v8a\lib\libQt6Quick_arm64-v8a.prl:
 C:\Qt\6.4.0\android_arm64_v8a\lib\libQt6OpenGL_arm64-v8a.prl:
 C:\Qt\6.4.0\android_arm64_v8a\lib\libQt6Svg_arm64-v8a.prl:
-C:\Qt\6.4.0\android_arm64_v8a\lib\libQt6Multimedia_arm64-v8a.prl:
 C:\Qt\6.4.0\android_arm64_v8a\lib\libQt6Gui_arm64-v8a.prl:
 C:\Qt\6.4.0\android_arm64_v8a\lib\libQt6QmlModels_arm64-v8a.prl:
 C:\Qt\6.4.0\android_arm64_v8a\lib\libQt6Qml_arm64-v8a.prl:
-C:\Qt\6.4.0\android_arm64_v8a\lib\libQt6Bluetooth_arm64-v8a.prl:
 C:\Qt\6.4.0\android_arm64_v8a\lib\libQt6Network_arm64-v8a.prl:
 C:\Qt\6.4.0\android_arm64_v8a\lib\libQt6Core_arm64-v8a.prl:
 qmake: FORCE
@@ -666,18 +662,25 @@ compiler_rcc_clean:
 	-$(DEL_FILE) qrc_myresources.cpp qrc_qmake_resources.cpp
 qrc_myresources.cpp: ..\KENSINGTON_APP\myresources.qrc \
 		C:\Qt\6.4.0\mingw_64\bin\rcc.exe \
+		..\KENSINGTON_APP\qtquickcontrols2.conf \
 		..\KENSINGTON_APP\main.qml \
 		..\KENSINGTON_APP\COMPONENTS\MyMenuBar.qml \
+		..\KENSINGTON_APP\COMPONENTS\NewHelpPage.qml \
 		..\KENSINGTON_APP\COMPONENTS\MyStatusBlockDelegate.qml \
+		..\KENSINGTON_APP\COMPONENTS\NewLoginPage.qml \
 		..\KENSINGTON_APP\COMPONENTS\MyTextField.qml \
 		..\KENSINGTON_APP\COMPONENTS\MyIcon.qml \
+		..\KENSINGTON_APP\COMPONENTS\NewLockListView.qml \
+		..\KENSINGTON_APP\COMPONENTS\NewMainPage.qml \
 		..\KENSINGTON_APP\COMPONENTS\qmldir \
 		..\KENSINGTON_APP\COMPONENTS\MyStyle.qml \
+		..\KENSINGTON_APP\COMPONENTS\NewBasePage.qml \
 		..\KENSINGTON_APP\COMPONENTS\MyButton.qml \
 		..\KENSINGTON_APP\FONTS\Inter-Regular.ttf \
 		..\KENSINGTON_APP\FONTS\Inter-Bold.ttf \
 		..\KENSINGTON_APP\ICONS\icon_help.svg \
 		..\KENSINGTON_APP\ICONS\round_pitt.svg \
+		..\KENSINGTON_APP\ICONS\icon_plus.svg \
 		..\KENSINGTON_APP\ICONS\icon_loading.svg \
 		..\KENSINGTON_APP\ICONS\kensington.svg \
 		..\KENSINGTON_APP\ICONS\icon_status.svg \

@@ -4,6 +4,7 @@ import QtQuick.Controls
 Rectangle {
 	id: item1
 	property int inheretedWindowHeight: 480
+	border.color: "#ffffff"
 	implicitHeight: 20
 	implicitWidth: 200
 	TextField{

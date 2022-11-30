@@ -11,30 +11,30 @@
                         "startOffsets": "-1,-1"
                     },
                     "to": {
-                        "startLines": "29,32",
+                        "startLines": "28,31",
                         "startColumns": "4,4",
-                        "startOffsets": "1381,1752",
+                        "startOffsets": "1327,1634",
                         "endColumns": "107,97",
-                        "endOffsets": "1484,1845"
+                        "endOffsets": "1430,1727"
                     }
                 },
                 {
                     "source": "D:\\Academics\\FA2022\\PREA\\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\\android-build\\res\\values\\libs.xml",
                     "from": {
-                        "startLines": "-1,-1,8,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,4,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,211,-1,-1,-1,-1",
-                        "endLines": "-1,-1,27,-1,-1,-1,-1",
-                        "endColumns": "-1,-1,12,-1,-1,-1,-1",
-                        "endOffsets": "-1,-1,1214,-1,-1,-1,-1"
+                        "startLines": "-1,-1,8,-1,32,-1,-1",
+                        "startColumns": "-1,-1,4,-1,4,-1,-1",
+                        "startOffsets": "-1,-1,211,-1,1388,-1,-1",
+                        "endLines": "-1,-1,26,-1,32,-1,-1",
+                        "endColumns": "-1,-1,12,-1,158,-1,-1",
+                        "endOffsets": "-1,-1,1160,-1,1542,-1,-1"
                     },
                     "to": {
-                        "startLines": "2,5,8,28,30,31,33",
+                        "startLines": "2,5,8,27,29,30,32",
                         "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,109,324,1330,1489,1712,1850",
-                        "endLines": "4,7,27,28,30,31,33",
-                        "endColumns": "12,12,12,50,222,39,47",
-                        "endOffsets": "104,319,1325,1376,1707,1747,1893"
+                        "startOffsets": "55,109,324,1276,1435,1594,1732",
+                        "endLines": "4,7,26,27,29,30,32",
+                        "endColumns": "12,12,12,50,158,39,47",
+                        "endOffsets": "104,319,1271,1322,1589,1629,1775"
                     }
                 }
             ]

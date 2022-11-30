@@ -17,5 +17,12 @@
         <file>COMPONENTS/MyTextField.qml</file>
         <file>COMPONENTS/MyStatusBlockDelegate.qml</file>
         <file>COMPONENTS/MyMenuBar.qml</file>
+        <file>COMPONENTS/NewMainPage.qml</file>
+        <file>COMPONENTS/NewLoginPage.qml</file>
+        <file>COMPONENTS/NewLockListView.qml</file>
+        <file>ICONS/icon_plus.svg</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>COMPONENTS/NewHelpPage.qml</file>
+        <file>COMPONENTS/NewBasePage.qml</file>
     </qresource>
 </RCC>

@@ -6,6 +6,10 @@ Rectangle {
 	property string lockName: "LOCKNAME"
 	property string lockStatus: "Status:"
 	property string lockBattery: "Battery:"
+	readonly property string lockNameConcated: "LOCKNAME"+lockName
+	readonly property string lockStatusConcated: "Status:"+lockStatus
+	readonly property string lockBatteryConcated: "Battery:"+lockBattery
+	border.color: "#ffffff"
 	Loader{
 		id:loader_statusIcon
 		source: "qrc:/COMPONENTS/MyIcon.qml"
@@ -17,7 +21,7 @@ Rectangle {
 	}
 	Text{
 		id:text_lockName
-		text: lockName
+		text: lockNameConcated
 		color: MyStyle.color_neutral800
 		font.family: MyStyle.fontloader_interbold_alias
 		font.pixelSize: MyStyle.param_largeFontSize
@@ -28,7 +32,7 @@ Rectangle {
 	}
 	Text{
 		id:text_lockStatus
-		text: lockStatus
+		text: lockStatusConcated
 		color: MyStyle.color_neutral600
 		font.family: MyStyle.fontloader_interbold_alias
 		font.pixelSize: MyStyle.param_fontSize
@@ -40,7 +44,7 @@ Rectangle {
 	}
 	Text{
 		id:text_lockBattery
-		text: lockBattery
+		text: lockBatteryConcated
 		color: MyStyle.color_neutral600
 		font.family: MyStyle.fontloader_interbold_alias
 		font.pixelSize: MyStyle.param_fontSize

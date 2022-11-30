@@ -4,6 +4,7 @@ import QtQuick.Controls
 Rectangle {
 	id:myIcon
 	color: "transparent"
+	border.color: "#ffffff"
 	implicitHeight: MyStyle.param_iconSize
 	implicitWidth: MyStyle.param_iconSize
 	enum IconTypeEnum{
