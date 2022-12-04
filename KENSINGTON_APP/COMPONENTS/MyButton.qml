@@ -1,32 +1,30 @@
-import QtQuick
-import QtQuick.Controls
+import QtQuick 2.14
+import QtQuick.Controls 2.14
 
 Rectangle {
-	id:myButton
+	id: myButton
 	implicitHeight: 50
 	implicitWidth: 100
-	color:"transparent"
+	color: "transparent"
+	border.color: "#ffffff"
 	property string buttonText: "button"
 	property int buttonType: MyButton.ButtonTypeEnum.GHOST
-	enum ButtonTypeEnum{
+	enum ButtonTypeEnum {
 		SOLID,
 		OUTLINE,
 		GHOST
 	}
 
-	MouseArea{
-		id:mousearea_clickArea
+	MouseArea {
+		id: mousearea_clickArea
 		anchors.fill: parent
 	}
 
-	Rectangle{
+	Rectangle {
 		id: rectangle_backgroundColor
 		anchors.fill: parent
-		color:buttonType===MyButton.ButtonTypeEnum.OUTLINE?
-				  MyStyle.color_neutralWhite:
-					buttonType===MyButton.ButtonTypeEnum.SOLID?
-					  mousearea_clickArea.pressed?MyStyle.color_neutral600:MyStyle.color_neutral800:
-						mousearea_clickArea.pressed?MyStyle.color_neutral400:MyStyle.color_neutral200
+		color: buttonType === MyButton.ButtonTypeEnum.OUTLINE ? MyStyle.color_neutralWhite : buttonType === MyButton.ButtonTypeEnum.SOLID ? mousearea_clickArea.pressed ? MyStyle.color_neutral600 : MyStyle.color_neutral800 : mousearea_clickArea.pressed ? MyStyle.color_neutral400 : MyStyle.color_neutral200
+
 
 		/*{
 			switch(buttonType){
@@ -45,18 +43,13 @@ Rectangle {
 				}
 		}*/
 		border.width: MyStyle.param_lineWidth
-		border.color: buttonType===MyButton.ButtonTypeEnum.OUTLINE?
-						  mousearea_clickArea.pressed?MyStyle.color_neutral600:MyStyle.color_neutral800:
-						"transparent"
+		border.color: buttonType === MyButton.ButtonTypeEnum.OUTLINE ? mousearea_clickArea.pressed ? MyStyle.color_neutral600 : MyStyle.color_neutral800 : "transparent"
 		radius: MyStyle.param_radius
 	}
-	Text{
-		z:3
+	Text {
+		z: 3
 		text: buttonText
-		color: buttonType===MyButton.ButtonTypeEnum.SOLID?MyStyle.color_neutralWhite:
-														   buttonType===MyButton.ButtonTypeEnum.OUTLINE?
-																					 mousearea_clickArea.pressed?MyStyle.color_neutral600:MyStyle.color_neutral800:
-																				   MyStyle.color_neutral800
+		color: buttonType === MyButton.ButtonTypeEnum.SOLID ? MyStyle.color_neutralWhite : buttonType === MyButton.ButtonTypeEnum.OUTLINE ? mousearea_clickArea.pressed ? MyStyle.color_neutral600 : MyStyle.color_neutral800 : MyStyle.color_neutral800
 		anchors.verticalCenter: parent.verticalCenter
 		font.pixelSize: MyStyle.param_fontSize
 		horizontalAlignment: Text.AlignHCenter
@@ -71,3 +64,4 @@ Designer {
 	D{i:0;formeditorZoom:3}
 }
 ##^##*/
+

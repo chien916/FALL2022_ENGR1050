@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.qtproject.example.bletest-mergeDebugResources-4:/values/values.xml",
+            "map": [
+                {
+                    "source": "C:\\Qt\\6.4.0\\android_arm64_v8a\\src\\android\\java\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "88,197",
+                        "endColumns": "107,97",
+                        "endOffsets": "191,290"
+                    },
+                    "to": {
+                        "startLines": "16,19",
+                        "startColumns": "4,4",
+                        "startOffsets": "571,831",
+                        "endColumns": "107,97",
+                        "endOffsets": "674,924"
+                    }
+                },
+                {
+                    "source": "D:\\Academics\\FA2022\\PREA\\qt_bluetooth_test\\build-bletest-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\\android-build\\res\\values\\libs.xml",
+                    "from": {
+                        "startLines": "4,16,8,22,20,23,21",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "152,501,211,794,632,846,745",
+                        "endLines": "6,18,14,22,20,23,21",
+                        "endColumns": "12,12,12,50,111,47,47",
+                        "endOffsets": "203,624,493,840,739,889,788"
+                    },
+                    "to": {
+                        "startLines": "2,5,8,15,17,18,20",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,109,235,520,679,791,929",
+                        "endLines": "4,7,14,15,17,18,20",
+                        "endColumns": "12,12,12,50,111,39,47",
+                        "endOffsets": "104,230,515,566,786,826,972"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,250 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.qtproject.example.bletest"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml
+10        android:targetSdkVersion="28" />
+10-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml
+11    <!--
+12         The following comment will be replaced upon deployment with default permissions based on the dependencies of the application.
+13         Remove the comment if you do not require these default permissions.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:5:5-67
+15-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:5:22-64
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:6:5-81
+16-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:6:22-78
+17    <uses-permission android:name="android.permission.BLUETOOTH" />
+17-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:7:5-68
+17-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:7:22-65
+18    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+18-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:8:5-74
+18-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:8:22-71
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:9:5-79
+19-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:9:22-76
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:10:5-81
+20-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:10:22-78
+21
+22    <!--
+23         The following comment will be replaced upon deployment with default features based on the dependencies of the application.
+24         Remove the comment if you do not require these default features.
+25    -->
+26
+27    <supports-screens
+27-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:16:5-135
+28        android:anyDensity="true"
+28-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:16:80-105
+29        android:largeScreens="true"
+29-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:16:23-50
+30        android:normalScreens="true"
+30-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:16:51-79
+31        android:smallScreens="true" />
+31-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:16:106-133
+32
+33    <application
+33-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:17:5-87:19
+34        android:name="org.qtproject.qt5.android.bindings.QtApplication"
+34-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:17:53-116
+35        android:debuggable="true"
+36        android:extractNativeLibs="true"
+36-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:17:141-173
+37        android:hardwareAccelerated="true"
+37-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:17:18-52
+38        android:label="bletest" >
+38-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:17:117-140
+39        <activity
+39-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:18:9-83:16
+40            android:name="org.qtproject.qt5.android.bindings.QtActivity"
+40-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:18:189-249
+41            android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation|mcc|mnc|density"
+41-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:18:19-188
+42            android:label="bletest"
+42-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:18:250-273
+43            android:launchMode="singleTop"
+43-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:18:314-344
+44            android:screenOrientation="unspecified" >
+44-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:18:274-313
+45            <intent-filter>
+45-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:19:13-22:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:20:17-68
+46-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:20:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:21:17-76
+48-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:21:27-74
+49            </intent-filter>
+50
+51            <!-- Application arguments -->
+52            <!-- meta-data android:name="android.app.arguments" android:value="arg1 arg2 arg3"/ -->
+53            <!-- Application arguments -->
+54
+55            <meta-data
+55-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:28:13-85
+56                android:name="android.app.lib_name"
+56-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:28:24-59
+57                android:value="bletest" />
+57-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:28:60-83
+58            <meta-data
+58-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:29:13-112
+59                android:name="android.app.qt_sources_resource_id"
+59-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:29:24-73
+60                android:resource="@array/qt_sources" />
+60-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:29:74-110
+61            <meta-data
+61-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:30:13-87
+62                android:name="android.app.repository"
+62-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:30:24-61
+63                android:value="default" />
+63-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:30:62-85
+64            <meta-data
+64-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:31:13-106
+65                android:name="android.app.qt_libs_resource_id"
+65-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:31:24-70
+66                android:resource="@array/qt_libs" />
+66-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:31:71-104
+67            <meta-data
+67-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:32:13-116
+68                android:name="android.app.bundled_libs_resource_id"
+68-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:32:24-75
+69                android:resource="@array/bundled_libs" />
+69-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:32:76-114
+70            <!-- Deploy Qt libs as part of package -->
+71            <meta-data
+71-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:34:13-91
+72                android:name="android.app.bundle_local_qt_libs"
+72-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:34:24-71
+73                android:value="1" />
+73-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:34:72-89
+74
+75            <!-- Run with local libs -->
+76            <meta-data
+76-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:37:13-88
+77                android:name="android.app.use_local_qt_libs"
+77-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:37:24-68
+78                android:value="1" />
+78-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:37:69-86
+79            <meta-data
+79-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:38:13-100
+80                android:name="android.app.libs_prefix"
+80-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:38:24-62
+81                android:value="/data/local/tmp/qt/" />
+81-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:38:63-98
+82            <meta-data
+82-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:39:13-122
+83                android:name="android.app.load_local_libs_resource_id"
+83-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:39:24-78
+84                android:resource="@array/load_local_libs" />
+84-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:39:79-120
+85            <meta-data
+85-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:40:13-153
+86                android:name="android.app.load_local_jars"
+86-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:40:24-66
+87                android:value="jar/QtAndroid.jar:jar/QtAndroidExtras.jar:jar/QtAndroidBluetooth.jar" />
+87-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:40:67-151
+88            <meta-data
+88-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:41:13-153
+89                android:name="android.app.static_init_classes"
+89-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:41:24-70
+90                android:value="org.qtproject.qt5.android.bluetooth.QtBluetoothBroadcastReceiver" />
+90-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:41:71-151
+91            <!-- Used to specify custom system library path to run with local system libs -->
+92            <!-- <meta-data android:name="android.app.system_libs_prefix" android:value="/system/lib/"/> -->
+93            <!-- Messages maps -->
+94            <meta-data
+94-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:45:13-122
+95                android:name="android.app.ministro_not_found_msg"
+95-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:45:71-120
+96                android:value="@string/ministro_not_found_msg" />
+96-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:45:24-70
+97            <meta-data
+97-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:46:13-116
+98                android:name="android.app.ministro_needed_msg"
+98-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:46:68-114
+99                android:value="@string/ministro_needed_msg" />
+99-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:46:24-67
+100            <meta-data
+100-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:47:13-108
+101                android:name="android.app.fatal_error_msg"
+101-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:47:64-106
+102                android:value="@string/fatal_error_msg" />
+102-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:47:24-63
+103            <meta-data
+103-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:48:13-132
+104                android:name="android.app.unsupported_android_version"
+104-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:48:76-130
+105                android:value="@string/unsupported_android_version" />
+105-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:48:24-75
+106            <!-- Messages maps -->
+107
+108
+109            <!-- Splash screen -->
+110            <!--
+111                 Orientation-specific (portrait/landscape) data is checked first. If not available for current orientation,
+112                 then android.app.splash_screen_drawable. For best results, use together with splash_screen_sticky and
+113                 use hideSplashScreen() with a fade-out animation from Qt Android Extras to hide the splash screen when you
+114                 are done populating your window with content.
+115            -->
+116            <!-- meta-data android:name="android.app.splash_screen_drawable_portrait" android:resource="@drawable/logo_portrait" / -->
+117            <!-- meta-data android:name="android.app.splash_screen_drawable_landscape" android:resource="@drawable/logo_landscape" / -->
+118            <!-- meta-data android:name="android.app.splash_screen_drawable" android:resource="@drawable/logo"/ -->
+119            <!-- meta-data android:name="android.app.splash_screen_sticky" android:value="true"/ -->
+120            <!-- Splash screen -->
+121
+122
+123            <!-- Background running -->
+124            <!--
+125                 Warning: changing this value to true may cause unexpected crashes if the
+126                          application still try to draw after
+127                          "applicationStateChanged(Qt::ApplicationSuspended)"
+128                          signal is sent!
+129            -->
+130            <meta-data
+130-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:67:13-93
+131                android:name="android.app.background_running"
+131-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:67:24-69
+132                android:value="false" />
+132-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:67:70-91
+133            <!-- Background running -->
+134
+135
+136            <!-- auto screen scale factor -->
+137            <meta-data
+137-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:71:13-99
+138                android:name="android.app.auto_screen_scale_factor"
+138-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:71:24-75
+139                android:value="false" />
+139-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:71:76-97
+140            <!-- auto screen scale factor -->
+141
+142
+143            <!-- extract android style -->
+144            <!--
+145                 available android:values :
+146                * default - In most cases this will be the same as "full", but it can also be something else if needed, e.g., for compatibility reasons
+147                * full - useful QWidget & Quick Controls 1 apps
+148                * minimal - useful for Quick Controls 2 apps, it is much faster than "full"
+149                * none - useful for apps that don't use any of the above Qt modules
+150            -->
+151            <meta-data
+151-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:81:13-98
+152                android:name="android.app.extract_android_style"
+152-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:81:24-72
+153                android:value="default" />
+153-->D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:81:73-96
+154            <!-- extract android style -->
+155        </activity>
+156
+157        <!-- For adding service(s) please check: https://wiki.qt.io/AndroidServices -->
+158
+159    </application>
+160
+161</manifest>

@@ -7,8 +7,6 @@
         <file>ICONS/icon_status.svg</file>
         <file>ICONS/kensington.svg</file>
         <file>ICONS/round_pitt.svg</file>
-        <file>FONTS/Inter-Bold.ttf</file>
-        <file>FONTS/Inter-Regular.ttf</file>
         <file>COMPONENTS/MyButton.qml</file>
         <file>COMPONENTS/MyIcon.qml</file>
         <file>main.qml</file>
@@ -24,5 +22,8 @@
         <file>qtquickcontrols2.conf</file>
         <file>COMPONENTS/NewHelpPage.qml</file>
         <file>COMPONENTS/NewBasePage.qml</file>
+        <file>COMPONENTS/NewSettingPage.qml</file>
+        <file>COMPONENTS/NewSearchDeviceDialog.qml</file>
+        <file>FONTS/Montserrat-Medium.ttf</file>
     </qresource>
 </RCC>

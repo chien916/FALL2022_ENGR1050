@@ -1,0 +1,9 @@
+org.qtproject.example.bletest-java-0 C:\Qt\6.4.0\android_arm64_v8a\src\android\java\res
+org.qtproject.example.bletest-pngs-1 D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\build\generated\res\pngs\debug
+org.qtproject.example.bletest-resValues-2 D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\build\generated\res\resValues\debug
+org.qtproject.example.bletest-rs-3 D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\build\generated\res\rs\debug
+org.qtproject.example.bletest-mergeDebugResources-4 D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+org.qtproject.example.bletest-mergeDebugResources-5 D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+org.qtproject.example.bletest-merged_res-6 D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\build\intermediates\merged_res\debug
+org.qtproject.example.bletest-android-build-7 D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\res
+org.qtproject.example.bletest-debug-8 D:\Academics\FA2022\PREA\qt_bluetooth_test\build-bletest-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\src\debug\res

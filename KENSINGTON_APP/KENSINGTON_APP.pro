@@ -1,11 +1,12 @@
 QT += quick\
 	svg\
-
+	bluetooth\
+#	core5compat\
 	multimedia
 
 
 SOURCES += \
-        main.cpp
+	main.cpp
 
 resources.files = main.qml
 

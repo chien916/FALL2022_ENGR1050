@@ -1,9 +1,0 @@
-org.qtproject.example.KENSINGTON_APP-java-0 C:\Qt\6.4.0\android_arm64_v8a\src\android\java\res
-org.qtproject.example.KENSINGTON_APP-pngs-1 D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\build\generated\res\pngs\debug
-org.qtproject.example.KENSINGTON_APP-resValues-2 D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\build\generated\res\resValues\debug
-org.qtproject.example.KENSINGTON_APP-rs-3 D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\build\generated\res\rs\debug
-org.qtproject.example.KENSINGTON_APP-mergeDebugResources-4 D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
-org.qtproject.example.KENSINGTON_APP-mergeDebugResources-5 D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
-org.qtproject.example.KENSINGTON_APP-merged_res-6 D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\build\intermediates\merged_res\debug
-org.qtproject.example.KENSINGTON_APP-android-build-7 D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\res
-org.qtproject.example.KENSINGTON_APP-debug-8 D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_6_4_0_Clang_arm64_v8a-Debug\android-build\src\debug\res

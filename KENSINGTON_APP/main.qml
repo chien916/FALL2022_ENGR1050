@@ -1,18 +1,20 @@
-import QtQuick
-import QtQuick.Controls
-import QtQuick.Layouts
+import QtQuick 2.14
+import QtQuick.Controls 2.14
+import QtQuick.Layouts 1.14
+import QtMultimedia 5.15
+import QtQml 2.14
 import "COMPONENTS"
-import QtMultimedia
 
-Window {
+ApplicationWindow {
+	flags: Qt.Window
 	id: window
-	minimumHeight: 640
-	minimumWidth: 320
-	width: 320
-	height: 640
+	minimumHeight: 830
+	minimumWidth: 360
+	width: 360
+	height: 830
 	visible: true
 
-	title: qsTr("Hello World")
+	title: qsTr("Kensington Security")
 	FontLoader {}
 
 	Loader {
@@ -20,29 +22,7 @@ Window {
 		anchors.fill: parent
 		source: "qrc:/COMPONENTS/NewBasePage.qml"
 	}
-} //Page {//	id: window//	width: 320//	height: 640//	visible: true//	title: qsTr("Hello World")//	enum IconTypeEnum{//		Exclam,//		Help,//		Loading,//		Setting,//		Status//	}//	//	Text{//	//		height: 300
-//	//		text:"testtesttest"
-//	//		font.pixelSize: 50
-//	//		font.styleName: "Regular"
-//	//	}
-
-//	//	MyIcon{
-//	//		width: 50
-//	//		height: 50
-//	//		icon: MyIcon.EnumIcon.Help
-//	//	}
-
-//	//	MyButton{
-//	//		buttonText: "test"
-//	//		buttonType: MyButton.ButtonTypeEnum.SOLID
-//	//	}
-//	//	MyTextField{
-
-//	//	}
-
-//	Image{
-//		id: image_kensington
-//		y: 11
+} //Page {//	id: window//	width: 320//	height: 640//	visible: true//	title: qsTr("Hello World")//	enum IconTypeEnum{//		Exclam,//		Help,//		Loading,//		Setting,//		Status//	}//	//	Text{//	//		height: 300//	//		text:"testtesttest"//	//		font.pixelSize: 50//	//		font.styleName: "Regular"//	//	}//	//	MyIcon{//	//		width: 50//	//		height: 50//	//		icon: MyIcon.EnumIcon.Help//	//	}//	//	MyButton{//	//		buttonText: "test"//	//		buttonType: MyButton.ButtonTypeEnum.SOLID//	//	}//	//	MyTextField{//	//	}//	Image{//		id: image_kensington//		y: 11
 //		width: 261
 //		height: 74
 //		source: "qrc:/ICONS/kensington.svg"

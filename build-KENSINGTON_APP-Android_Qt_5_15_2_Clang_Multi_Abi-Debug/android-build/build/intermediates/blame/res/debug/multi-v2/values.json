@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Academics\\FA2022\\PREA\\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\\android-build\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Qt\\5.15.2\\android\\src\\android\\java\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "50,51,52,53",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "2751,2859,2981,3093",
+                        "endColumns": "107,121,111,97",
+                        "endOffsets": "2854,2976,3088,3186"
+                    }
+                },
+                {
+                    "source": "D:\\Academics\\FA2022\\PREA\\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\\android-build\\res\\values\\libs.xml",
+                    "from": {
+                        "startLines": "-1,52,13,-1",
+                        "startColumns": "-1,4,4,-1",
+                        "startOffsets": "-1,2409,360,-1",
+                        "endLines": "-1,55,50,-1",
+                        "endColumns": "-1,12,12,-1",
+                        "endOffsets": "-1,2888,2401,-1"
+                    },
+                    "to": {
+                        "startLines": "2,5,9,47",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,109,591,2635",
+                        "endLines": "4,8,46,49",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "104,586,2630,2746"
+                    }
+                }
+            ]
+        }
+    ]
+}

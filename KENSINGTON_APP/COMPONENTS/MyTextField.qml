@@ -1,5 +1,8 @@
-import QtQuick
-import QtQuick.Controls
+import QtQuick 2.14
+import QtQuick.Controls 2.14
+import QtQuick.Layouts 1.14
+import QtMultimedia 5.15
+import QtQml 2.14
 
 Rectangle {
 	id: item1
@@ -7,9 +10,9 @@ Rectangle {
 	border.color: "#ffffff"
 	implicitHeight: 20
 	implicitWidth: 200
-	TextField{
-		z:2
-		id:textfield_textField
+	TextField {
+		z: 2
+		id: textfield_textField
 		visible: true
 		anchors.verticalCenter: parent.verticalCenter
 		anchors.left: parent.left
@@ -26,14 +29,15 @@ Rectangle {
 		font.family: MyStyle.fontloader_interregular_alias
 		font.pixelSize: MyStyle.param_fontSize
 	}
-	Rectangle{
+	Rectangle {
 		id: rectangle_backgroundColor
 		anchors.fill: parent
 		layer.enabled: false
 		layer.smooth: false
 		layer.mipmap: false
 
-			/*{
+
+		/*{
 			switch(buttonType){
 					case MyButton.ButtonTypeEnum.SOLID:
 						if(parent.hovered)
@@ -48,10 +52,9 @@ Rectangle {
 						return MyStyle.color_neutral200
 				}
 		}*/
-		border.color:textfield_textField.activeFocus?MyStyle.color_neutral800:MyStyle.color_neutral400
+		border.color: textfield_textField.activeFocus ? MyStyle.color_neutral800 : MyStyle.color_neutral400
 		border.width: MyStyle.param_lineWidth
 		radius: MyStyle.param_radius
-
 	}
 }
 
@@ -60,3 +63,4 @@ Designer {
 	D{i:0;formeditorZoom:1.75}
 }
 ##^##*/
+

@@ -1,11 +1,12 @@
-import QtQuick
-import QtQuick.Controls
-import QtQuick.Layouts
-import QtMultimedia
-import QtQml
+import QtQuick 2.14
+import QtQuick.Controls 2.14
+import QtQuick.Layouts 1.14
+import QtMultimedia 5.15
+import QtQml 2.14
 
 Rectangle {
 	id: rectangle
+	border.color: "#ffffff"
 	Image {
 		id: kensingtonlogo
 		horizontalAlignment: Image.AlignLeft

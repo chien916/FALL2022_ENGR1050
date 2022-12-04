@@ -1,0 +1,243 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:2:1-94:12
+INJECTED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:2:1-94:12
+INJECTED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:2:1-94:12
+INJECTED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:2:1-94:12
+INJECTED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:2:1-94:12
+INJECTED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:2:1-94:12
+INJECTED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:2:1-94:12
+	package
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:2:11-57
+		INJECTED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml
+		INJECTED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:2:117-142
+		INJECTED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml
+		INJECTED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:2:58-116
+	android:versionCode
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:2:143-166
+		INJECTED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml
+		INJECTED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml
+	android:installLocation
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:2:167-197
+uses-permission#android.permission.INTERNET
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:8:5-68
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:8:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:9:5-74
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:9:22-71
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.CAMERA
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:12:5-65
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:12:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:13:5-71
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:13:22-68
+uses-feature#android.hardware.camera
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:17:5-85
+	android:required
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:17:58-82
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:17:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:18:5-95
+	android:required
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:18:68-92
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:18:19-67
+uses-feature#android.hardware.microphone
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:19:5-89
+	android:required
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:19:62-86
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:19:19-61
+supports-screens
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:21:5-135
+	android:largeScreens
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:21:23-50
+	android:smallScreens
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:21:106-133
+	android:normalScreens
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:21:51-79
+	android:anyDensity
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:21:80-105
+application
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:22:5-92:19
+	android:extractNativeLibs
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:22:148-180
+	android:label
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:22:117-147
+	android:hardwareAccelerated
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:22:18-52
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:22:53-116
+activity#org.qtproject.qt5.android.bindings.QtActivity
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:23:9-88:16
+	android:screenOrientation
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:23:281-320
+	android:label
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:23:250-280
+	android:launchMode
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:23:321-351
+	android:configChanges
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:23:19-188
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:23:189-249
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:24:13-27:29
+action#android.intent.action.MAIN
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:25:17-68
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:26:17-76
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:26:27-74
+meta-data#android.app.lib_name
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:33:13-92
+	android:value
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:33:60-90
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:33:24-59
+meta-data#android.app.qt_sources_resource_id
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:34:13-112
+	android:resource
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:34:74-110
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:34:24-73
+meta-data#android.app.repository
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:35:13-87
+	android:value
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:35:62-85
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:35:24-61
+meta-data#android.app.qt_libs_resource_id
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:36:13-106
+	android:resource
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:36:71-104
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:36:24-70
+meta-data#android.app.bundled_libs_resource_id
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:37:13-116
+	android:resource
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:37:76-114
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:37:24-75
+meta-data#android.app.bundle_local_qt_libs
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:39:13-91
+	android:value
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:39:72-89
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:39:24-71
+meta-data#android.app.use_local_qt_libs
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:42:13-88
+	android:value
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:42:69-86
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:42:24-68
+meta-data#android.app.libs_prefix
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:43:13-100
+	android:value
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:43:63-98
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:43:24-62
+meta-data#android.app.load_local_libs_resource_id
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:44:13-122
+	android:resource
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:44:79-120
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:44:24-78
+meta-data#android.app.load_local_jars
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:45:13-198
+	android:value
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:45:67-196
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:45:24-66
+meta-data#android.app.static_init_classes
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:46:13-208
+	android:value
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:46:71-206
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:46:24-70
+meta-data#android.app.ministro_not_found_msg
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:50:13-122
+	android:value
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:50:24-70
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:50:71-120
+meta-data#android.app.ministro_needed_msg
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:51:13-116
+	android:value
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:51:24-67
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:51:68-114
+meta-data#android.app.fatal_error_msg
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:52:13-108
+	android:value
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:52:24-63
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:52:64-106
+meta-data#android.app.unsupported_android_version
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:53:13-132
+	android:value
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:53:24-75
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:53:76-130
+meta-data#android.app.background_running
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:72:13-93
+	android:value
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:72:70-91
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:72:24-69
+meta-data#android.app.auto_screen_scale_factor
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:76:13-99
+	android:value
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:76:76-97
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:76:24-75
+meta-data#android.app.extract_android_style
+ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:86:13-98
+	android:value
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:86:73-96
+	android:name
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml:86:24-72
+uses-sdk
+INJECTED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml
+INJECTED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml
+INJECTED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml
+INJECTED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml
+		INJECTED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml
+		ADDED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml
+		INJECTED from D:\Academics\FA2022\PREA\build-KENSINGTON_APP-Android_Qt_5_15_2_Clang_Multi_Abi-Debug\android-build\AndroidManifest.xml
