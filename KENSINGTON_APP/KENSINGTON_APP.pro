@@ -1,9 +1,11 @@
 QT += quick\
 	svg\
-	bluetooth\
 #	core5compat\
-	multimedia
-
+	multimedia\
+	 qml
+win32|android{
+    QT+=bluetooth
+}
 
 SOURCES += \
 	main.cpp

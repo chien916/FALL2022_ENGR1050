@@ -242,7 +242,13 @@ armeabi-v7a\moc_testbleserver.cpp: ..\bletest\testbleserver.h \
 		C:\Qt\5.15.2\android\include\QtBluetooth\qlowenergyservicedata.h \
 		C:\Qt\5.15.2\android\include\QtBluetooth\QLowEnergyCharacteristicData \
 		C:\Qt\5.15.2\android\include\QtBluetooth\qlowenergycharacteristicdata.h \
+		C:\Qt\5.15.2\android\include\QtBluetooth\QBluetoothLocalDevice \
+		C:\Qt\5.15.2\android\include\QtBluetooth\qbluetoothlocaldevice.h \
+		C:\Qt\5.15.2\android\include\QtBluetooth\QBluetoothHostInfo \
+		C:\Qt\5.15.2\android\include\QtBluetooth\qbluetoothhostinfo.h \
 		C:\Qt\5.15.2\android\include\QtCore\QPair \
+		C:\Qt\5.15.2\android\include\QtCore\QMetaEnum \
+		C:\Qt\5.15.2\android\include\QtCore\qmetaobject.h \
 		C:\Qt\5.15.2\android\include\QtCore\QRandomGenerator \
 		C:\Qt\5.15.2\android\include\QtCore\qrandom.h \
 		C:\Qt\5.15.2\android\include\QtAndroidExtras\QtAndroid \
@@ -391,6 +397,8 @@ armeabi-v7a\main.obj: ..\bletest\main.cpp C:\Qt\5.15.2\android\include\QtCore\QC
 		C:\Qt\5.15.2\android\include\QtBluetooth\QLowEnergyCharacteristicData \
 		C:\Qt\5.15.2\android\include\QtBluetooth\qlowenergycharacteristicdata.h \
 		C:\Qt\5.15.2\android\include\QtCore\QPair \
+		C:\Qt\5.15.2\android\include\QtCore\QMetaEnum \
+		C:\Qt\5.15.2\android\include\QtCore\qmetaobject.h \
 		C:\Qt\5.15.2\android\include\QtCore\QRandomGenerator \
 		C:\Qt\5.15.2\android\include\QtCore\qrandom.h \
 		C:\Qt\5.15.2\android\include\QtAndroidExtras\QtAndroid \

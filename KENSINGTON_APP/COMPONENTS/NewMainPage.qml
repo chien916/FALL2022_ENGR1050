@@ -15,6 +15,7 @@ Page {
 			left: parent.left
 			right: parent.right
 			top: parent.top
+			//			bottom: tabbar.top
 			bottom: {
 				switch (tabbar.currentIndex) {
 				case 0:
@@ -28,7 +29,7 @@ Page {
 			margins: 10
 		}
 		spacing: 10
-		currentIndex: tabbar.currentIndex
+		currentIndex: 1
 		Loader {
 			id: newLockListView_loader
 			source: "qrc:/COMPONENTS/NewLockListView.qml"
@@ -235,7 +236,7 @@ Page {
 
 /*##^##
 Designer {
-	D{i:0;autoSize:true;formeditorZoom:0.5;height:480;width:640}
+	D{i:0;autoSize:true;formeditorZoom:0.75;height:480;width:640}
 }
 ##^##*/
 

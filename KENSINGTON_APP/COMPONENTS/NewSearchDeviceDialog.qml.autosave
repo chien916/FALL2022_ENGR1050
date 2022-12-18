@@ -1,0 +1,107 @@
+import QtQuick 2.14
+import QtQuick.Controls 2.14
+import QtQuick.Layouts 1.14
+import QtMultimedia 5.15
+import QtQml 2.14
+
+Rectangle {
+	Item {
+		height: connectDialog.height
+		anchors {
+			left: parent.left
+			right: parent.right
+			bottom: parent.bottom
+			margins: 10
+		}
+		Rectangle {
+			anchors {
+				left: parent.left
+				right: parent.right
+				bottom: parent.bottom
+				margins: 10
+			}
+			id: connectDialog
+			width: parent.width
+			ColumnLayout {
+				anchors {
+					left: parent.left
+					right: parent.right
+					bottom: parent.bottom
+				}
+				Label {
+					elide: Label.ElideRight
+					font.weight: Font.Black
+					font.bold: true
+					text: "Connect"
+					font.pointSize: MyStyle.param_largeFontSize
+					font.family: "Montserrat Medium"
+					Layout.fillWidth: true
+				}
+				Label {
+					elide: Label.ElideRight
+					font.pointSize: MyStyle.param_fontSize
+					font.family: "Montserrat Medium"
+					text: "Please enter the lock MAC address:"
+					Layout.fillWidth: true
+				}
+				TextField {
+					focus: true
+					Layout.fillWidth: true
+					font.pointSize: MyStyle.param_fontSize
+					font.family: "Montserrat Medium"
+					inputMask: "HH:HH:HH:HH:HH:HH;_"
+				}
+				Label {
+					wrapMode: Text.WordWrap
+					font.pointSize: MyStyle.param_fontSize
+					font.family: "Montserrat Medium"
+					text: "Note: MAC address usually can be found on the back of your E-Lock"
+					Layout.fillWidth: true
+				}
+				RowLayout {
+					Layout.fillWidth: true
+					Button {
+						Layout.fillWidth: true
+						Text {
+							text: "Confirm"
+							anchors.fill: parent
+							horizontalAlignment: Text.AlignHCenter
+							verticalAlignment: Text.AlignVCenter
+							color: MyStyle.color_neutralWhite
+							font.pointSize: MyStyle.param_fontSize
+							font.family: "Montserrat Medium"
+						}
+						highlighted: true
+						onClicked: {
+
+						}
+					}
+					Button {
+						Text {
+							text: "Cancel"
+							anchors.fill: parent
+							horizontalAlignment: Text.AlignHCenter
+							verticalAlignment: Text.AlignVCenter
+							color: MyStyle.color_neutral800
+							font.pointSize: MyStyle.param_fontSize
+							font.family: "Montserrat Medium"
+						}
+						Layout.fillWidth: true
+						onClicked: connectDialog.close()
+					}
+				}
+			}
+			//			onClosed: {
+			//				swipeView.visible = true
+			//				fastblur.visible = false
+			//				newLockListView_loader.item.add()
+			//			}
+		}
+	}
+}
+/*##^##
+Designer {
+	D{i:0;autoSize:true;height:480;width:640}
+}
+##^##*/
+

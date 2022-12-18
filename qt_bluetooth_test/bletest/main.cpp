@@ -9,12 +9,19 @@
 #include<QLowEnergyDescriptor>
 #include<testbleserver.h>
 
+
 int main(int argc, char *argv[]) {
 	QCoreApplication a(argc, argv);
 	TestBleServer test;
+
 //	test.scan();
-	test.setAsPeripheral();
+	test.setAsCentral();
+//	test.setAsPeripheral();
+//	test.setAsCentral(
+//	test.scan();
+//	test.setAsPeripheral();
 	test.startTimer(500);
+
 	return a.exec();
 
 }
